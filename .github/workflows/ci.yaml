@@ -16,9 +16,12 @@ jobs:
     name: Check formatter and linter
     runs-on: ubuntu-22.04
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       # shellcheck should already be installed, but it doesn't hurt
       - name: Run Bash formatter and linter
         run:  |
             sudo apt install -y shfmt shellcheck
-            shfmt -w abisiggen.sh
+            shfmt -d abisiggen.sh
             shellcheck abisiggen.sh

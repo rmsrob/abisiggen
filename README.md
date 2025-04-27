@@ -1,5 +1,5 @@
 # abisiggen 🛠️⚡
-[![Sanity checks](https://github.com/rmsrob/abisiggen/actions/workflows/ci.yml/badge.svg)](https://github.com/rmsrob/abisiggen/actions/workflows/ci.yml)
+[![Sanity checks](https://github.com/rmsrob/abisiggen/actions/workflows/ci.yaml/badge.svg)](https://github.com/rmsrob/abisiggen/actions/workflows/ci.yaml)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue)](https://www.gnu.org/licenses/agpl-3.0)
 
 
